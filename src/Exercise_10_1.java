@@ -67,6 +67,6 @@ class Time {
         minute = totalMinutes % 60;
         long totalHours = totalMinutes / 60;
         hour = (totalHours % 24) +1;
-        System.out.println("Current time is " + hour + ":" + minute + ":" + second + " GMT");
+        System.out.println("Current time is " + hour + ":" + minute + ":" + second + " GMT+1");
     }
 }
