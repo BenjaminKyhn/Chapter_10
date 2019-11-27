@@ -5,5 +5,8 @@ public class Listing_10_3 {
 
         BMI bmi2 = new BMI("Susan King",215,70);
         System.out.println("The BMI for " + bmi2.getName() + " is " + bmi2.getBMI() + " " + bmi2.getStatus());
+
+        BMI bmi3 = new BMI("Benjamin Kyhn", 31,172, 5,10);
+        System.out.println("The BMI for " + bmi3.getName() + " is " + bmi3.getBMI() + " " + bmi3.getStatus());
     }
 }
