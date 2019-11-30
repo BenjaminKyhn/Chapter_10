@@ -17,13 +17,7 @@ public class Exercise_10_7 {
 
             if (id >= 0 && id <= 9) {
                 do {
-                    System.out.println("\nMain menu");
-                    System.out.println("1: check balance");
-                    System.out.println("2: withdraw");
-                    System.out.println("3: deposit");
-                    System.out.println("4: exit");
-                    System.out.println("Enter a choice: ");
-                    choice = input.nextInt();
+                    choice = showMenu(input);
                     runTransaction(choice, myAccounts, id, input);
                 } while (choice != 4);
             } else
